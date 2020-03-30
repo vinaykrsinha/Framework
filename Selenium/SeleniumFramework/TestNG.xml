@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testing.org/tstng-1-0.dtd">
+
+<suite name = "Sanchay">
+
+	<listeners>
+		<listener class-name="com.sanchay.utilities.Reporting" />
+	</listeners>
+
+	<test name = "SanchayAPP Test">
+		<parameter name = "browser" value="chrome" />
+			<Classes>
+				<!-- <class name = "com.sanchay.testCases.TC_LoginTest_001" /> -->
+				<!-- <class name = "com.sanchay.testCases.TC_LoginDDT_002" /> -->
+				<class name = "com.sanchay.testCases.TC_AddCustomerTest_003" />
+			</Classes>	
+	
+	</test>
+	
+</suite>
